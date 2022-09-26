@@ -21,3 +21,24 @@ ul {
 .logo {
   color: #2196f3;
 }
+
+/* Site nav */
+.site-nav {
+  color: #212121;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
+.auth-nav :hover,
+.auth-nav :focus {
+  color: #2196f3;
+}
+/* Оформление hero */
+.hero {
+}
+
+/* Оформление section */
+.section-subtitle {
+  color: #212121;
+}
