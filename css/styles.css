@@ -30,15 +30,47 @@ ul {
 .site-nav :focus {
   color: #2196f3;
 }
+.site-nav .link.current,
+.auth-nav .link.current {
+  color: #2196f3;
+}
 .auth-nav :hover,
 .auth-nav :focus {
   color: #2196f3;
 }
+
 /* Оформление hero */
-.page-title {
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+}
+.button :hover,
+.button :focus {
+  color: 188CE8;
 }
 
 /* Оформление section */
 .section-subtitle {
   color: #212121;
+}
+p {
+  color: #757575;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.section-title {
+  color: #212121;
+}
+/* Футер */
+footer {
+  background-color: #2f303a;
 }
