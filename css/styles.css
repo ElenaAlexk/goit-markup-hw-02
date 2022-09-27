@@ -38,6 +38,9 @@ ul {
 /* Site nav */
 .site-nav {
   color: #212121;
+}
+.site-nav,
+.auth-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -50,12 +53,6 @@ ul {
 .site-nav .link.current,
 .auth-nav .link.current {
   color: #2196f3;
-}
-.auth-nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .auth-nav :hover,
 .auth-nav :focus {
@@ -94,6 +91,7 @@ ul {
 }
 
 /* Оформление section */
+
 .section-subtitle {
   color: #212121;
   font-weight: 700;
