@@ -27,6 +27,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo :hover,
 .logo :focus {
@@ -36,8 +37,13 @@ ul {
   color: #000000;
 }
 /* Site nav */
-.site-nav {
+.site-nav .link {
   color: #212121;
+  text-decoration: none;
+}
+.auth-nav .link {
+  color: #757575;
+  text-decoration: none;
 }
 .site-nav,
 .auth-nav {
@@ -140,9 +146,11 @@ footer {
 }
 .footer-link {
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-list {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer :hover,
 .footer :focus {
