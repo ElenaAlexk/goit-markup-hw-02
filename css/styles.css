@@ -21,7 +21,13 @@ ul {
 .logo {
   color: #2196f3;
 }
-
+.logo :hover,
+.logo :focus {
+  color: #2196f3;
+}
+.logo-header {
+  color: #000000;
+}
 /* Site nav */
 .site-nav {
   color: #212121;
@@ -83,4 +89,7 @@ footer {
 .footer :hover,
 .footer :focus {
   color: #2196f3;
+}
+.logo-footer {
+  color: #ffffff;
 }
