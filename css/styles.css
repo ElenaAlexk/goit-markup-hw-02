@@ -74,3 +74,13 @@ p {
 footer {
   background-color: #2f303a;
 }
+.footer-link {
+  color: #ffffff;
+}
+.footer-list {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer :hover,
+.footer :focus {
+  color: #2196f3;
+}
