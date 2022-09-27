@@ -13,6 +13,9 @@
 body {
   background-color: #fff;
   color: rgba(33, 33, 33, 1);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,6 +23,10 @@ ul {
 }
 .logo {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo :hover,
 .logo :focus {
@@ -31,6 +38,10 @@ ul {
 /* Site nav */
 .site-nav {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -39,6 +50,12 @@ ul {
 .site-nav .link.current,
 .auth-nav .link.current {
   color: #2196f3;
+}
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-nav :hover,
 .auth-nav :focus {
@@ -51,12 +68,25 @@ ul {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
   border-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button :hover,
 .button :focus {
@@ -66,19 +96,49 @@ ul {
 /* Оформление section */
 .section-subtitle {
   color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 p {
   color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
-.section-team {
+.gallery {
   background-color: #f5f4fa;
 }
-.section-title {
+.gallery-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.gallery-subtitle {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Футер */
 footer {
   background-color: #2f303a;
+}
+.footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-link {
   color: #ffffff;
