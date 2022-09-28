@@ -21,6 +21,18 @@ body {
 ul {
   list-style: none;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .logo {
   color: #2196f3;
   font-family: Raleway, sans-serif;
@@ -96,11 +108,13 @@ ul {
   background: #188ce8;
   color: #fff;
 }
+
 .button-filter {
   background-color: #f5f4fa;
   color: #212121;
   cursor: pointer;
   font-weight: 500;
+  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -148,6 +162,24 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+.item {
+  color: #eeeeee;
+}
+.item-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.item-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.item .link {
+  text-decoration: none;
 }
 /* Футер */
 footer {
