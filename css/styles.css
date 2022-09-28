@@ -99,7 +99,7 @@ ul {
   color: var(--primary-text-color);
   cursor: pointer;
   border-color: transparent;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -118,7 +118,7 @@ ul {
   color: var(--title-text-color);
   cursor: pointer;
   font-weight: 500;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
