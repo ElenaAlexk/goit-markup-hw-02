@@ -93,7 +93,7 @@ ul {
 }
 .button:hover,
 .button:focus {
-  background: 188CE8;
+  background: #188ce8;
   color: #fff;
 }
 .button-filter {
