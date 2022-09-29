@@ -80,7 +80,6 @@ ul {
 .auth-nav :focus {
   color: var(--accent-color);
 }
-
 /* Оформление hero */
 .hero {
   background-color: #2f303a;
